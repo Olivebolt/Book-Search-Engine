@@ -1,0 +1,98 @@
+# 📚 **Book Search Engine**
+
+## 🌟 **Description**
+
+The **Book Search Engine** is a full-stack web application that allows users to search for books using the **Google Books API** and manage their personal library by saving and removing books. The app has been refactored from a RESTful API architecture to utilize a **GraphQL API** with **Apollo Server**.
+
+---
+
+## 📝 **User Story**
+
+**AS AN** avid reader  
+**I WANT** to search for new books to read  
+**SO THAT** I can keep a list of books to purchase
+
+---
+
+## ✅ **Acceptance Criteria**
+
+- **When I load the app:**
+  - I see a navigation menu with options to **"Search for Books"** and **"Login/Signup".**
+  - I see an input field and submit button to search for books.
+- **When I search for books without logging in:**
+  - I see search results with each book’s **title**, **author**, **description**, **image**, and a **link** to the book on the Google Books website.
+- **When I click "Login/Signup":**
+  - A modal appears with options to toggle between **login** and **signup**.
+- **When I sign up:**
+  - I provide a **username**, **email**, and **password**, and am logged in automatically.
+- **When I log in:**
+  - The modal closes, and the navigation menu updates with options to **"Search for Books," "My Saved Books," and "Logout."**
+- **When I search for books while logged in:**
+  - I see a button to **save** each book to my account.
+- **When I save a book:**
+  - The book’s information is stored in my account and reflected in my saved books list.
+- **When I view my saved books:**
+  - I see all saved books with an option to **remove** each one.
+- **When I remove a book:**
+  - The book is deleted from my saved books list.
+- **When I log out:**
+  - The navigation menu updates to show **"Search for Books"** and **"Login/Signup"** options.
+
+---
+
+## 🚀 **Features**
+
+- **GraphQL API:**
+  - Queries: Fetch user data (e.g., saved books).
+  - Mutations: Login, signup, save books, and remove books.
+- **MongoDB Atlas:** Stores user information and saved books.
+
+---
+
+## 🛠️ **Usage**
+
+1. Open the project in **Visual Studio Code**.
+2. Start the development server by running:
+   ```bash
+   npm run develop
+   ```
+3. Open your browser and navigate to `http://localhost:3000` to view the app.
+
+---
+
+## 🌍 **Deployment**
+
+The application is deployed on **Render** with **MongoDB Atlas** integration. You can access the deployed app [here](#).
+
+---
+
+## 🤝 **Contribution Guidelines**
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Open the project in **Visual Studio Code**.
+3. Create a feature branch:
+   ```bash
+   git checkout -b feature/<feature-name>
+   ```
+4. Commit your changes:
+   ```bash
+   git commit -m "Add <feature-name>"
+   ```
+5. Push to your branch:
+   ```bash
+   git push origin feature/<feature-name>
+   ```
+6. Submit a pull request.
+
+---
+
+## 📜 **License**
+
+This project is licensed under the **MIT License**.
+
+---
+
+For any questions or suggestions, feel free to contact the project maintainers. 🌟
+
